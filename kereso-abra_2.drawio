@@ -4,39 +4,26 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d3YXFKfwupSAdBNM2k2F-1" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="m3M9dN9ISt_U2wg56FMn-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m3M9dN9ISt_U2wg56FMn-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FF3333;fillColor=#000000;" value="" vertex="1">
-          <mxGeometry height="40" width="40" x="310" y="10" as="geometry" />
+          <mxGeometry height="40" width="40" x="20" y="70" as="geometry" />
         </mxCell>
         <mxCell id="7sV1QlN9N-K5pfrHMRtM-21" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="7sV1QlN9N-K5pfrHMRtM-15" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m3M9dN9ISt_U2wg56FMn-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Keresés" vertex="1">
-          <mxGeometry height="40" width="140" x="260" y="70" as="geometry" />
+          <mxGeometry height="40" width="140" x="130" y="70" as="geometry" />
         </mxCell>
         <mxCell id="m3M9dN9ISt_U2wg56FMn-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Van-e &quot;katalógus&quot; az elemben?" vertex="1">
           <mxGeometry height="80" width="132.5" x="430" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="m3M9dN9ISt_U2wg56FMn-5" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="m3M9dN9ISt_U2wg56FMn-3" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="380" y="270" as="sourcePoint" />
-            <mxPoint x="430" y="220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7sV1QlN9N-K5pfrHMRtM-22" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="m3M9dN9ISt_U2wg56FMn-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="170" y="280" />
-              <mxPoint x="496" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7sV1QlN9N-K5pfrHMRtM-23" connectable="0" parent="7sV1QlN9N-K5pfrHMRtM-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Találatok hozzáadása" vertex="1">
-          <mxGeometry relative="1" x="0.0311" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="d3YXFKfwupSAdBNM2k2F-4" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="d3YXFKfwupSAdBNM2k2F-3" value="">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m3M9dN9ISt_U2wg56FMn-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Keresés rekurzív hívása elem[&quot;katalogus&quot;]-ra" vertex="1">
-          <mxGeometry height="60" width="120" x="110" y="190" as="geometry" />
+          <mxGeometry height="60" width="120" x="240" y="190" as="geometry" />
         </mxCell>
         <mxCell id="7sV1QlN9N-K5pfrHMRtM-8" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="m3M9dN9ISt_U2wg56FMn-53">
           <mxGeometry relative="1" as="geometry" />
@@ -106,27 +93,31 @@
         <mxCell id="m3M9dN9ISt_U2wg56FMn-39" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Megfelel?" vertex="1">
           <mxGeometry height="80" width="105" x="520" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="7sV1QlN9N-K5pfrHMRtM-13" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.675;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="m3M9dN9ISt_U2wg56FMn-42">
+        <mxCell id="7sV1QlN9N-K5pfrHMRtM-13" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.967;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="m3M9dN9ISt_U2wg56FMn-42">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="431" y="680" />
+              <mxPoint x="431" y="440" />
+              <mxPoint x="270" y="440" />
+              <mxPoint x="270" y="439" />
             </Array>
-            <mxPoint x="430" y="350" as="targetPoint" />
+            <mxPoint x="270" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="m3M9dN9ISt_U2wg56FMn-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;BZ_Pyq_fadeIn&quot;&gt;Találatok &lt;/span&gt;&lt;span class=&quot;BZ_Pyq_fadeIn&quot;&gt;hozzáadása&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="512.5" y="650" as="geometry" />
         </mxCell>
-        <mxCell id="7sV1QlN9N-K5pfrHMRtM-24" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="m3M9dN9ISt_U2wg56FMn-4">
+        <mxCell id="d3YXFKfwupSAdBNM2k2F-8" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="7sV1QlN9N-K5pfrHMRtM-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="320" />
-              <mxPoint x="496" y="320" />
+              <mxPoint x="60" y="430" />
+              <mxPoint x="60" y="140" />
+              <mxPoint x="436" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m3M9dN9ISt_U2wg56FMn-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Következő elem" vertex="1">
-          <mxGeometry height="60" width="120" x="350" y="380" as="geometry" />
+          <mxGeometry height="60" width="120" x="120" y="400" as="geometry" />
         </mxCell>
         <mxCell id="m3M9dN9ISt_U2wg56FMn-47" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FF3333;fillColor=#000000;" value="" vertex="1">
           <mxGeometry height="40" width="40" x="760" y="180" as="geometry" />
@@ -155,6 +146,18 @@
         </mxCell>
         <mxCell id="7sV1QlN9N-K5pfrHMRtM-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Van e még elem a listában?" vertex="1">
           <mxGeometry height="80" width="120" x="436.25" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d3YXFKfwupSAdBNM2k2F-7" edge="1" parent="1" source="d3YXFKfwupSAdBNM2k2F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="m3M9dN9ISt_U2wg56FMn-42" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d3YXFKfwupSAdBNM2k2F-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;BZ_Pyq_fadeIn&quot;&gt;elem[&quot;katalogus&quot;]-ban lévő találatok hozzá&lt;/span&gt;&lt;span class=&quot;BZ_Pyq_fadeIn&quot;&gt;adása&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="100" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="d3YXFKfwupSAdBNM2k2F-9" edge="1" parent="1" source="m3M9dN9ISt_U2wg56FMn-7" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.414;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="m3M9dN9ISt_U2wg56FMn-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="190" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
