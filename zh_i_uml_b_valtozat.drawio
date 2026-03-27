@@ -5,31 +5,31 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="step1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="szamok = [2, 4, 6]" vertex="1">
-          <mxGeometry height="60" width="220" x="380" y="100" as="geometry" />
+          <mxGeometry height="60" width="220" x="181" y="100" as="geometry" />
         </mxCell>
         <mxCell id="step2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="osszeg = 0" vertex="1">
-          <mxGeometry height="60" width="200" x="390" y="190" as="geometry" />
+          <mxGeometry height="60" width="200" x="191" y="190" as="geometry" />
         </mxCell>
         <mxCell id="dec1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Van még&#xa;következő elem?" vertex="1">
-          <mxGeometry height="110" width="160" x="410" y="290" as="geometry" />
+          <mxGeometry height="110" width="160" x="211" y="290" as="geometry" />
         </mxCell>
         <mxCell id="step3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="szam = következő listaelem" vertex="1">
-          <mxGeometry height="60" width="240" x="370" y="450" as="geometry" />
+          <mxGeometry height="60" width="240" x="171" y="450" as="geometry" />
         </mxCell>
         <mxCell id="step4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="osszeg += szam" vertex="1">
-          <mxGeometry height="60" width="200" x="390" y="540" as="geometry" />
+          <mxGeometry height="60" width="200" x="191" y="540" as="geometry" />
         </mxCell>
         <mxCell id="step5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Kiírás:&#xa;&quot;Összeg:&quot;, osszeg" vertex="1">
-          <mxGeometry height="70" width="220" x="710" y="305" as="geometry" />
+          <mxGeometry height="70" width="220" x="511" y="305" as="geometry" />
         </mxCell>
         <mxCell id="dec2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="len(szamok) &gt; 3?" vertex="1">
-          <mxGeometry height="100" width="160" x="740" y="420" as="geometry" />
+          <mxGeometry height="100" width="160" x="541" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="step6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Kiírás:&#xa;&quot;Van több mint 3 szám.&quot;" vertex="1">
-          <mxGeometry height="70" width="240" x="610" y="570" as="geometry" />
+        <mxCell id="step6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Kiírás:&#xa;&quot;Van több mint 3 szám.&quot;" vertex="1">
+          <mxGeometry height="70" width="240" x="411" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="step7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Kiírás:&#xa;&quot;Nincs több mint 3 szám.&quot;" vertex="1">
-          <mxGeometry height="70" width="260" x="890" y="570" as="geometry" />
+        <mxCell id="step7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Kiírás:&#xa;&quot;Nincs több mint 3 szám.&quot;" vertex="1">
+          <mxGeometry height="70" width="260" x="691" y="570" as="geometry" />
         </mxCell>
         <mxCell id="e2" edge="1" parent="1" source="step1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="step2">
           <mxGeometry relative="1" as="geometry" />
@@ -46,8 +46,8 @@
         <mxCell id="e6" edge="1" parent="1" source="step4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="dec1" value="vissza">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="570" />
-              <mxPoint x="280" y="345" />
+              <mxPoint x="81" y="570" />
+              <mxPoint x="81" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -65,24 +65,24 @@
         </mxCell>
         <mxCell id="e11" edge="1" parent="1" source="step6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="870" y="690" as="targetPoint" />
+            <mxPoint x="671" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e12" edge="1" parent="1" source="step7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="SEtQw1CW6SW1N_nDy_hs-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="870" y="690" as="targetPoint" />
+            <mxPoint x="671" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SEtQw1CW6SW1N_nDy_hs-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="475" y="10" as="geometry" />
+          <mxGeometry height="30" width="30" x="276" y="10" as="geometry" />
         </mxCell>
         <mxCell id="SEtQw1CW6SW1N_nDy_hs-2" edge="1" parent="1" source="SEtQw1CW6SW1N_nDy_hs-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="100" as="targetPoint" />
+            <mxPoint x="291" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SEtQw1CW6SW1N_nDy_hs-3" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="855" y="675" as="geometry" />
+          <mxGeometry height="30" width="30" x="656" y="675" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
