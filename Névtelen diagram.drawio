@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+  <diagram name="UML A változat - színezett" id="H6rnnjYW1yGjKj9WMHaX">
+    <mxGraphModel dx="1426" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="osszeg = 0" vertex="1">
+          <mxGeometry height="60" width="160" x="194" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="osszeg &lt; 100?" vertex="1">
+          <mxGeometry height="100" width="160" x="194" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Véletlen szám generálása&#xa;random.randint(1, 10)" vertex="1">
+          <mxGeometry height="70" width="240" x="154" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="osszeg += veletlen_szam" vertex="1">
+          <mxGeometry height="60" width="240" x="154" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kiírás: &quot;Eddig: &quot; + str(osszeg)" vertex="1">
+          <mxGeometry height="60" width="280" x="134" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kiírás: &quot;Teljes összeg: &quot; + str(osszeg)" vertex="1">
+          <mxGeometry height="60" width="300" x="524" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" value="osszeg % 2 == 0?" vertex="1">
+          <mxGeometry height="110" width="200" x="574" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kiírás: &quot;Páros.&quot;" vertex="1">
+          <mxGeometry height="60" width="180" x="454" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Kiírás: &quot;Páratlan.&quot;" vertex="1">
+          <mxGeometry height="60" width="180" x="714" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-10" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-11" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-3" value="Igen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-12" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-13" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-14" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-2" value="vissza">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="64" y="630" />
+              <mxPoint x="64" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-15" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-6" value="Nem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-16" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-17" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-8" value="Igen">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-18" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;" target="RzHKlWrbfmzL4bkYFFjj-9" value="Nem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-19" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-20" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;strokeColor=#333333;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-21" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="259" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-22" edge="1" parent="1" source="RzHKlWrbfmzL4bkYFFjj-21" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="274" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzHKlWrbfmzL4bkYFFjj-23" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="659" y="700" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
